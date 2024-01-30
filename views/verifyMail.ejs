@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="display: flex; font-size: 18px; flex-direction: column">
+    <span style="font-weight: 700; font-size: 30px; color: dodgerblue">
+      Oore<span style="color: grey">Platform</span>
+    </span>
+    <span
+      >You entered
+      <span style="color: dodgerblue; font-weight: 700"><%- email %></span> as
+      the email address <br /><br />
+      for your account.</span
+    ><br />
+    <span>Please verify by clicking on the button below</span>
+    <a
+      href="<%= url %>"
+      style="
+        height: 50px;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        border-radius: 5px;
+        background-color: dodgerblue;
+        margin-top: 10px;
+        text-decoration: none;
+        color: white;
+      "
+      >verify</a
+    >
+  </body>
+</html>
